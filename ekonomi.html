@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ekonomi - Open Data Kota Bandung</title>
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+    <!-- Google Fonts Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <!--::: Navigation Bar :::-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-scrolled bg-transparent shadow-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/image/logo.png" alt="" width="70" height="59" class="d-inline-block align-text-top"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dataset.html">Dataset</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="organisasi.html">Organisasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="grup.html">Grup</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Aplikasi
+              </a>
+              <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#">ARIMBI</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Bandung City Dashboard</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Open Data APBD</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Bahasa
+              </a>
+              <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#">Indonesia</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">English</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--<img class="vector" width="600px" src="assets/image/vector.png">-->
+  </nav>
+    <!--::: End Navigation Bar :::-->
+
+    <!--::: Section Deskripsi Website :::-->
+    <section class="decsription content-fluid">
+      <h1 class="descdtset1">
+        Ekonomi dan Keuangan
+      </h1>
+      <div class="">
+        <h2 class="descdtset2">
+            Apa itu Ekonomi dan Keuangan?
+        </h2>
+        <h2 class="descdtset3">
+            Data Ekonomi dan Keuangan merupakan kumpulan data dari SKPD (Satuan Kerja Perangkat Daerah) Pemerintah Kota Bandung yang berhubungan dengan Ekonomi dan Keuangan seperti, penanaman modal, perizinan, perdagangan, perindustrian, koperasi, usaha kecil menengah, dan pangan.
+        </h2>
+        <div class="has-search">
+          <input type="text" class="form-control" placeholder="Search">
+          <button class="form-control-feedback"><i class="fas fa-search"></i></button>
+        </div>  
+      </div> 
+      <img class="vectordtset" width="300px" src="assets/image/vector3.png">   
+    </section>
+    <!--::: End Section Deskripsi Website :::-->
+
+    <!--::: Section Total Data dan Filter :::-->
+    <section class="tdata content-fluid">
+        <div class="float-end">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+              Filter Data
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><button class="dropdown-item" type="button">Terbaru</button></li>
+              <li><button class="dropdown-item" type="button">Terlama</button></li>
+            </ul>
+        </div>
+        <h1 class="data">
+            408 Total Dataset
+        </h1>
+    </section>
+    <!--::: End Section Total Data dan Filter :::-->
+
+    <!--::: Section Dataset Flexbox :::-->
+    <section class="dtset">
+      <div class="d-flex content-fluid">
+        <div class="flex-shrink-0">
+          <img class="icondt1" width="70px" src="assets/image/icondata1.png">
+        </div>
+        <div class="flex-grow-1 ms-3" style="margin-top: auto; margin-bottom: auto;">
+          <a class="dttitle" href="#">Komunitas Kreatif di Kota Bandung</a>
+          <p class="desk">Dataset ini berisi data komunitas kreatif di Kota Bandung.</p> 
+          <a class="desk2" href="#">Dinas Kesehatan</a>
+          <!-- Start Button Aksi --> 
+          <a href="lihatdataset.html">
+          <a href="lihatdataset.html">
+          <button class="hvr3" href="lihatdataset.html"><i class="fas fa-eye"></i> Lihat Dataset</button>
+          </a>
+          </a>
+          <button class="hvr3 klmbtn2"><i class="far fa-clock "></i> 2 Hari yang lalu</button>
+          <button class="hvr3 klmbtn2"><i class="far fa-file-alt klmbtn"></i> Berisi 1 Data</button>
+          <button type="button" class="hvr3" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+            <i class="fas fa-cloud-download-alt"></i> Unduh Dataset
+          </button>
+          <!-- End Button Aksi --> 
+      </div>
+      </div>
+      <div class="d-flex content-fluid">
+        <div class="flex-shrink-0">
+          <img class="icondt1" width="70px" src="assets/image/icondata2.png">
+        </div>
+        <div class="flex-grow-1 ms-3" style="margin-top: auto; margin-bottom: auto;">
+            <a class="dttitle" href="#">Komunitas Kreatif di Kota Bandung</a>
+            <p class="desk">Dataset ini berisi data komunitas kreatif di Kota Bandung.</p> 
+            <a class="desk2" href="#">Dinas Kesehatan</a>
+            <!-- Start Button Aksi --> 
+            <a href="lihatdataset.html">
+          <button class="hvr3" href="lihatdataset.html"><i class="fas fa-eye"></i> Lihat Dataset</button>
+          </a>
+            <button class="hvr3 klmbtn2"><i class="far fa-clock "></i> 2 Hari yang lalu</button>
+            <button class="hvr3 klmbtn2"><i class="far fa-file-alt klmbtn"></i> Berisi 1 Data</button>
+            <button type="button" class="hvr3" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+              <i class="fas fa-cloud-download-alt"></i> Unduh Dataset
+            </button>
+            <!-- End Button Aksi -->
+        </div>
+      </div>
+      <div class="d-flex content-fluid">
+        <div class="flex-shrink-0">
+          <img class="icondt1" width="70px" src="assets/image/icondata3.png">
+        </div>
+        <div class="flex-grow-1 ms-3" style="margin-top: auto; margin-bottom: auto;">
+            <a class="dttitle" href="#">Daftar Harga Komoditas Bahan Pokok di Pasar Andir Tahun 2017</a>
+            <p class="desk">Dataset ini berisi daftar harga komoditas bahan pokok di pasar Andir pada tahun 2017, terdapat 35 komoditas bahan pokok beserta dengan harga perhari.</p> 
+            <a class="desk2" href="#">Dinas Kesehatan</a>
+            <!-- Start Button Aksi --> 
+            <a href="lihatdataset.html">
+          <button class="hvr3" href="lihatdataset.html"><i class="fas fa-eye"></i> Lihat Dataset</button>
+          </a>
+            <button class="hvr3 klmbtn2"><i class="far fa-clock "></i> 2 Hari yang lalu</button>
+            <button class="hvr3 klmbtn2"><i class="far fa-file-alt klmbtn"></i> Berisi 1 Data</button>
+            <button type="button" class="hvr3" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+              <i class="fas fa-cloud-download-alt"></i> Unduh Dataset
+            </button>
+            <!-- End Button Aksi --> 
+        </div>
+      </div>
+      <div class="d-flex content-fluid">
+        <div class="flex-shrink-0">
+          <img class="icondt1" width="70px" src="assets/image/icondata1.png">
+        </div>
+        <div class="flex-grow-1 ms-3" style="margin-top: auto; margin-bottom: auto;">
+            <a class="dttitle" href="#">Jumlah Kasus Filariasis (Kaki Gajah) di Kota Bandung</a>
+            <p class="desk">Dataset ini berisi data jumlah kasus penyakit filariasis (kaki gajah) di Kota Bandung. Jumlah Kasus Filariasis (Kaki Gajah) di Kota Bandung. Jumlah Kasus Filariasis (Kaki Gajah) di Kota BandungJumlah Kasus Filariasis (Kaki Gajah) di Kota BandungJumlah Kasus Filariasis (Kaki Gajah) di Kota Bandung</p> 
+            <a class="desk2" href="kesehatan.html">Dinas Kesehatan</a>
+              <!-- Start Button Aksi --> 
+            <a href="lihatdataset.html">
+          <button class="hvr3" href="lihatdataset.html"><i class="fas fa-eye"></i> Lihat Dataset</button>
+          </a>
+            <button class="hvr3 klmbtn2"><i class="far fa-clock "></i> 2 Hari yang lalu</button>
+            <button class="hvr3 klmbtn2"><i class="far fa-file-alt klmbtn"></i> Berisi 1 Data</button>
+            <button type="button" class="hvr3" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+              <i class="fas fa-cloud-download-alt"></i> Unduh Dataset
+            </button>
+            <!-- End Button Aksi --> 
+        </div>
+      </div>
+      <div class="d-flex content-fluid">
+        <div class="flex-shrink-0">
+          <img class="icondt1" width="70px" src="assets/image/icondata2.png">
+        </div>
+        <div class="flex-grow-1 ms-3" style="margin-top: auto; margin-bottom: auto;">
+            <a class="dttitle" href="#">Komunitas Kreatif di Kota Bandung</a>
+            <p class="desk">Dataset ini berisi data komunitas kreatif di Kota Bandung.</p> 
+            <a class="desk2" href="#">Dinas Kesehatan</a>
+            <!-- Start Button Aksi --> 
+            <a href="lihatdataset.html">
+          <button class="hvr3" href="lihatdataset.html"><i class="fas fa-eye"></i> Lihat Dataset</button>
+          </a>
+            <button class="hvr3 klmbtn2"><i class="far fa-clock "></i> 2 Hari yang lalu</button>
+            <button class="hvr3 klmbtn2"><i class="far fa-file-alt klmbtn"></i> Berisi 1 Data</button>
+            <button type="button" class="hvr3" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+              <i class="fas fa-cloud-download-alt"></i> Unduh Dataset
+            </button>
+            <!-- End Button Aksi --> 
+        </div>
+      </div>
+      <div class="d-flex content-fluid">
+        <div class="flex-shrink-0">
+          <img class="icondt1" width="70px" src="assets/image/icondata3.png">
+        </div>
+        <div class="flex-grow-1 ms-3" style="margin-top: auto; margin-bottom: auto;">
+            <a class="dttitle" href="#">Daftar Harga Komoditas Bahan Pokok di Pasar Andir Tahun 2017</a>
+            <p class="desk">Dataset ini berisi daftar harga komoditas bahan pokok di pasar Andir pada tahun 2017, terdapat 35 komoditas bahan pokok beserta dengan harga perhari.</p> 
+            <a class="desk2" href="#">Dinas Kesehatan</a>
+            <!-- Start Button Aksi --> 
+            <a href="lihatdataset.html">
+          <button class="hvr3" href="lihatdataset.html"><i class="fas fa-eye"></i> Lihat Dataset</button>
+          </a>
+            <button class="hvr3 klmbtn2"><i class="far fa-clock "></i> 2 Hari yang lalu</button>
+            <button class="hvr3 klmbtn2"><i class="far fa-file-alt klmbtn"></i> Berisi 1 Data</button>
+            <button type="button" class="hvr3" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+              <i class="fas fa-cloud-download-alt"></i> Unduh Dataset
+            </button>
+            <!-- End Button Aksi --> 
+        </div>
+      </div>
+      <img class="vectorflex" width="250px" src="assets/image/vector4.png">
+
+      <!--Start Modal Button-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="assets/image/alert unduh.png" alt="">
+              <h3 class="texalert">Dataset Berhasil di Unduh</h3>
+              <button type="button" class="btnalrt" data-mdb-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Modal Button-->
+    </section>
+    <!--::: End Section dataset flexbox :::-->
+
+    <!--::: Section Pagination :::-->
+    <section class="pagin content-fluid">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+          </ul>
+        </nav>
+    </section>
+    <!--::: End Section Pagination :::-->
+
+    <!--::: Section FOOTER :::-->
+    <footer class="text-center text-lg-start text-white" style="position:relative; background-color: #F0EEEE;">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-6 col-xl-3 mx-auto mt-3 mb-4 mb-md-0">
+          <a class="navbar-brand" href="#"><img src="assets/image/logo.png" alt="" width="70" height="59" class="d-inline-block align-text-top"></a>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+          <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">Alamat</h6>
+          <p>
+            <a class="text-black">Jl. Wastukencana No.2, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117</a>
+          </p>
+          <p>
+        </div>
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+          <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">Open Data Kota Bandung</h6>
+          <p>
+            <a href="#" class="text-black">Tentang Kami</a>
+          </p>
+          <p>
+            <a href="#" class="text-black">Kebijakan Privasi</a>
+          </p>
+          <p>
+            <a href="#" class="text-black">Bantuan</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none" />
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+          <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">
+            Atribusi
+          </h6>
+          <p>
+            <a href="#!"><i class="fab fa-google"></i> bdg.data</a>
+          </p>
+          <p>
+            <a href="#!"><i class="fab fa-instagram"></i> data@bandung.go.id</a>
+          </p>
+        </div>
+  
+        <!-- Grid column 
+        <hr class="w-100 clearfix d-md-none" />
+        Grid column -->
+      </div>
+      <!--Grid row-->
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto" style="padding: 0px;">
+          <div class="mt-4">
+            <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitra.png); color:#D9D9D9; border-radius: 5px 5px;"></i></a>
+            <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitra.png); color:#D9D9D9; border-radius: 5px 5px;"></i></a>
+            <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitra.png); color:#D9D9D9; border-radius: 5px 5px;"></i></a>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+  
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+      <div class="row d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-ms text-center ">
+          <!-- Copyright -->
+          <div class="text-black p-3">
+            © 2020 Copyright
+            Portal Data Kota Bandung 2022. All rights reserved
+          </div>
+          <!-- Copyright -->
+        </div>
+        <!-- Grid column -->
+      </div>
+      </section>
+      <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!--::: End Section FOOTER :::-->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Custom Navbar Background On Scroll  -->
+    <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+        });
+    </script>
+    <!-- Custom Navbar Background On Scroll  -->
+
+  </body>
+</html>

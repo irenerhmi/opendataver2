@@ -1,0 +1,343 @@
+
+body {
+    background-image: url("../image/vector.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 600px;
+    padding-left: 55px;
+    padding-right: 30px;
+}
+
+/* :::::::::::::: START NAVIGATION ::::::::::::::*/
+
+nav.navbar {
+    padding-left: 55px;
+    padding-right: 27px;
+}
+
+.navbar-brand {
+    margin: 0px;
+}
+
+nav .navbar-nav li a.dropdown-item:hover {
+    color: #B0DEFF;
+    background-color: #FFFF;
+}
+
+nav .navbar-nav li {
+    padding-right: 3px;
+}
+
+nav .navbar-nav li a {
+    color: black;
+    font-size: 16px;
+}
+
+nav .navbar-nav li a:hover, nav .navbar-nav li a:visited {
+    color: black;
+}
+
+/* :::::::::::::: END NAVIGATION ::::::::::::::*/
+
+/* :::::::::::::: START SECTION DESCRIPTION ::::::::::::::*/
+
+section.decsription {
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+
+.bg-transparent.scrolled {
+    background: #FFFF !important;
+    shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+.descdtset1 {
+    font-size: 29px;
+    text-align: left; 
+    color: black;
+    font-weight: 600;
+    line-height: 48px;
+    padding-left: 20px;
+}
+
+.descdtset2 {
+    font-size: 20px;
+    text-align: left; 
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    line-height: 48px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+
+.descdtset3 {
+    font-size: 20px;
+    text-align: left; 
+    color: black;
+    padding-top: -20px;
+    padding-bottom: 35px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+
+.has-search {
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+  
+.has-search .form-control {
+    padding-right: 2.375rem;
+    border: 2px solid #000000; 
+    border-radius: 40px;
+}
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    color: #000000;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    border: 0px;
+    padding-right: 190px;
+  }
+  .vectordtset {
+    position: absolute;
+    z-index: 999;
+    left: -1px;
+    top: 115px;
+    width: 130px;
+  }
+
+/* :::::::::::::: END SECTION DESCRIPTION ::::::::::::::*/
+
+/* :::::::::::::: START Total Data dan Filter ::::::::::::::*/
+.tdata {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.data {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000;
+    padding-bottom: 30px;
+    padding-left: 22px;
+}
+
+.float-end{
+    padding-top: 10px;
+    padding-right: 27px;
+}
+
+.float-end .btn{
+    font-size: 16px;
+    font-weight: 550;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+    background-color: #B0DEFF;
+    border-radius: 10px;
+    border: none;
+    width: auto;
+    height: 40px;
+}
+
+.float-end ul.dropdown-menu{
+    width: 100px;
+}
+
+.float-end ul.dropdown-menu button.dropdown-item{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    text-align: right;
+}
+
+.float-end ul.dropdown-menu button.dropdown-item:hover{
+    background-color: #B0DEFF;
+}
+
+/* :::::::::::::: END Total Data dan Filter ::::::::::::::*/
+
+/* :::::::::::::: START Dataset Flexbox ::::::::::::::*/
+.dtset {
+    padding-left: 22px;
+}
+
+.d-flex{
+    justify-content: left;
+    padding-bottom: 30px;
+    /* width: 100px; */
+}
+
+.flex-shrink-0 {
+    background: #B0DEFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.icondt1{
+    width: 55%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.dttitle{
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.desk{
+    font-size: 20px;
+    color: black;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.desk2{
+    font-size: 20px;
+    color: black;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.hvr{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding-right: 18px
+}
+
+a.klmbtn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    padding-right: 18px
+}
+
+a.hvr:hover{
+    color: #005288;
+}
+
+.vector3{
+    position: absolute;
+    right: 0px;
+    top: 500px;
+    z-index: 999;
+}
+
+/* :::::::::::::: END Dataset Flexbox ::::::::::::::*/
+
+/* :::::::::::::: START PAGINATION ::::::::::::::*/
+
+section.pagin{
+    padding-left: 22px;
+    padding-bottom: 50px;
+}
+
+nav .pagination{
+    padding-bottom: 20px;
+    position: absolute;
+    left: 45%;
+}
+
+nav ul.pagination li.page-item a.page-link{
+    color: #000000;
+    font-weight: 600;
+}
+
+nav ul.pagination li.page-item a.page-link:hover:not(.active){
+    background-color: #B0DEFF;
+}
+
+/* :::::::::::::: END PAGINATION ::::::::::::::*/
+
+/* :::::::::::::: START FOOTER ::::::::::::::*/
+section.footeer{
+    padding-top: 20px;
+    margin-left: -55px;
+    margin-right: -30px;
+}
+
+.row a.navbar-brand img{
+    margin-left: -55px;
+}
+
+.row .col-lg-6{
+    width: 10%;
+}
+
+.row .col-lg-3{
+    width: 18%;
+}
+
+.footeer .bg-footer{
+    background-color: #F0EEEE;
+}
+
+.bg-footer h5.tuppercase{
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bg-footer li a.twhite{
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.bg-footer .tcenter{
+    color: #000000;
+    text-align: center;
+}
+
+.klmitra{
+    display: grid;
+    row-gap: 0px;
+    grid-template-columns: auto auto auto;
+    background-color: none;
+    padding: 0px;
+    width: 250px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.klmitra .g-col-6{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    text-align: center;
+    margin-inline: 0px;
+    width: 70px;
+    height: 70px;
+}
+
+@media only screen and (max-width: 1044px) {
+    .footeer{
+        width: 700px;
+    }
+}
+
+/* :::::::::::::: END FOOTER ::::::::::::::*/
