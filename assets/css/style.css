@@ -164,22 +164,22 @@ section.decsription {
 }
 
 .descawal {
-    font-size: 27px;
+    font-size: 28px;
     text-align: center; 
     color: black;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 43px;
 
 }
 
 .descawal2 {
-    font-size: 24px;
+    font-size: 23px;
     text-align: center; 
     color: black;
-    padding-top: 46px;
-    padding-bottom: 35px;
+    padding-top: 6px;
+    padding-bottom: 25px;
     line-height: 48px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -233,8 +233,8 @@ section.decsription {
   
 .has-search .form-control {
     padding-right: 2.375rem;
-    border: 2px solid #000000; 
-    border-radius: 20px;
+    border: 0.5px solid #000000; 
+    border-radius: 17px;
 }
   
 .has-search .form-control-feedback {
@@ -272,9 +272,9 @@ section.decsription {
 .vectordtset {
     position: absolute;
     z-index: -1;
-    left: 0px;
+    left: -14px;
     top: 130px;
-    width: 105px;
+    width: 70px;
   }
 
 @media only screen and (max-width: 600px) {
@@ -299,10 +299,10 @@ section.decsription {
 
 .stat {
     font-weight: 600;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 39px;
     color: #000;
-    padding-bottom: 62px;
+    padding-bottom: 40px;
 }
 
 .row {
@@ -312,15 +312,15 @@ section.decsription {
 
 .boxstat {
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3.5px 10px 1.3px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
     width: 106px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .boxstat .contenstat {
@@ -342,19 +342,20 @@ section.decsription {
 
 .boxstat .contenstat h2 {
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     /* identical to box height */
     color: #000000;
     font-weight: 530;
-    line-height: 48px;
+    line-height: 30px;
     margin-bottom: 0px;
+    padding-top: 5px;
 
 }
 
 .boxstat .contenstat h3 {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 19px;
+    line-height: 30px;
     /* identical to box height */
     color: #000000;
     margin-bottom: 0px;
@@ -389,7 +390,7 @@ section.decsription {
     margin-right: 10px;
     margin-left: 10px;
     border-radius: 25px !important;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+    box-shadow: 0px 3.5px 10px 1.3px rgba(0, 0, 0, 0.25) !important;
 }
 
 .cardhl:hover {
@@ -432,10 +433,10 @@ span.carousel-control-next-icon {
 /* ....!:::::::::: START HALAMAN DATA SEKTORAL ::::::::::!....*/
 .sekt {
     font-weight: 600;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 39px;
     color: #000;
-    padding-bottom: 62px;
+    padding-bottom: 40px;
 }
 
 .label-ds {
@@ -443,6 +444,9 @@ span.carousel-control-next-icon {
     font-weight: 400;
     line-height: 30px;
     color: #000000;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img2 {
@@ -527,7 +531,7 @@ span.carousel-control-next-icon {
     right: 0px;
     top: 1100px;
     z-index: -1;
-    width: 280px;
+    width: 190px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -565,10 +569,10 @@ span.carousel-control-next-icon {
 
 .apptrn {
     font-weight: 600;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 39px;
     color: #000;
-    padding-bottom: 62px;
+    padding-bottom: 40px;
 }
 
 #aplturunan {
@@ -634,9 +638,9 @@ span.carousel-control-next-icon {
   .vector4 {
     position: absolute;
     z-index: -1;
-    left: -1px;
-    top: 1590px;
-    width: 350px;
+    left: -19px;
+    top: 1740px;
+    width: 190px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -688,13 +692,14 @@ span.carousel-control-next-icon {
 
 .filterdt ul.dropdown-menu button.dropdown-item{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: #000000;
-    text-align: right;
+    text-align: left;
 }
 
 .filterdt ul.dropdown-menu button.dropdown-item:hover{
-    background-color: #B0DEFF;
+    color: #005288;
+    background-color: transparent !important;
 }
 
 .fdt {
@@ -720,13 +725,14 @@ span.carousel-control-next-icon {
 
 .float-end ul.dropdown-menu button.dropdown-item{
     font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
+    font-weight: 500;
+    text-align: left;
+    color: #000;
 }
 
 .float-end ul.dropdown-menu button.dropdown-item:hover{
-    background-color: #B0DEFF;
+    color: #005288;
+    background-color: transparent !important;
 }
 
 /* :::::::::::::: END SECTION Total Data dan Filter ::::::::::::::*/
@@ -772,7 +778,7 @@ span.carousel-control-next-icon {
 
 .dttitle{
     color: #000000;
-    line-height: 24px;
+    line-height: 19px;
     text-align: left;
     font-size: 20px;
     font-weight: 600;
@@ -782,8 +788,16 @@ span.carousel-control-next-icon {
     color: #000000;
     line-height: 24px;
     text-align: left;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.dttitle-lhtd{
+    color: #000000;
+    line-height: 19px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .dttitle-dinas{
@@ -806,7 +820,7 @@ span.carousel-control-next-icon {
 }
 
 .desk{
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     line-height: 20px;
     font-weight: 400;
@@ -821,7 +835,7 @@ span.carousel-control-next-icon {
 }
 
 .desk2{
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     line-height: 19px;
     font-weight: 400;
@@ -843,18 +857,18 @@ span.carousel-control-next-icon {
 .hvr2 {
     border: none;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .hvr3 {
     border: none;
     background-color: transparent;
-    font-size: 19px;
+    font-size: 18px;
     color: #000;
-    font-weight: 600;
-    line-height: 24px;
+    font-weight: 500;
+    line-height: 19px;
     padding-left: 0px !important;
     padding-right: 15px;
     margin-top: 5px;
@@ -906,12 +920,13 @@ a.hvr:hover{
 
 .modal-body img {
     padding-top: 30px;
+    width: 100px;
 }
 
 .texalert {
-    font-weight: 550;
-    font-size: 19px;
-    line-height: 36px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
     color: #000000;
     text-align: center;
     padding-top: 20px;
@@ -935,8 +950,10 @@ a.hvr:hover{
 .vectorflex{
     position: absolute;
     right: 0px;
-    top: 500px;
+    top: 1250px;
     z-index: -1;
+    width: 120px;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -987,6 +1004,8 @@ a.hvr:hover{
     word-wrap: break-word;
     background-color: #fff;
     background-clip: initial;   
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 20px;
 }
 
 .card-h:hover{
@@ -1057,7 +1076,7 @@ ul.nav-h{
 .nav-pills a.nav-link.actived{
     background-color: #fff !important;
     color: #000000;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     text-transform: capitalize;
     padding: 0px;
@@ -1227,12 +1246,13 @@ div #dd-unduh {
 
 .dropdown ul.dropdown-unduh button.dropdown-itemunduh{
     color: #000000;
-    font-weight: 600;
-    text-align: right;
+    font-weight: 500;
+    text-align: left;
 }
 
 .dropdown ul.dropdown-unduh button.dropdown-itemunduh:hover{
-    background-color: #B0DEFF;
+    color: #005288;
+    background-color: transparent !important;
 }
 
 .vectorlhtdtset{
@@ -1240,6 +1260,7 @@ div #dd-unduh {
     right: 0px;
     top: 1200px;
     z-index: -1;
+    width: 120px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1318,62 +1339,6 @@ li.page-item {
     justify-content: center; 
     padding-left: 0px !important;
     padding-right: 0px !important;
-}
-
-
-.c1:hover {
-    background-color: #B0DEFF !important;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 20px 0px 0px 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.c2:hover {
-    background-color: #B0DEFF !important;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.c3:hover {
-    background-color: #B0DEFF !important;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px 20px 20px 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-@media only screen and (max-width: 600px) {
-    .c1{
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-
-    .c2{
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-
-    .c3{
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-
-    .c1:hover {
-        border-radius: 20px 20px 0px 0px !important;
-    }
-
-    .c3:hover {
-        border-radius: 0px 0px 20px 20px !important;
-    }
 }
 
 .descdataset2 {
@@ -1518,9 +1483,21 @@ li.page-item {
     margin-bottom: 10px;  
   }
 
+  section.decsription-h {
+    margin-top: 0px;
+    padding-top: 160px;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+    background-color: #B0DEFF;
+    font-weight: 600;
+    color: black;
+}
+
   section.decsription {
-    margin-top: 160px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 140px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
     font-weight: 600;
     color: black;
 }
@@ -1599,9 +1576,9 @@ li.page-item {
 .vectororg{
     position: absolute;
     right: 0px;
-    top: 500px;
+    top: 1000px;
     z-index: -1;
-    width: 240px;
+    width: 190px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1717,10 +1694,17 @@ button.klmdata2:hover {
     box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
 }
 
+.tbdata table th {
+    position: sticky;
+    top: 0;
+    background-color: #B0DEFF;
+}
+
 .tbdata table th, td {
     font-weight: 400;
     line-height: 36px;
     color: #000000;
+    font-size: 18px;
 }
 
 .has-search2 {
@@ -1795,9 +1779,11 @@ button.klmdata2:hover {
 
 .jdrekdata {
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 39px;
     color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .consboxrek .col-sm-9 {
