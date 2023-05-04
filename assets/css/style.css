@@ -21,6 +21,7 @@ body {
     background-size: 600px;
     max-width: 100%;
     height: 100vh;
+    font-family: 'Poppins' !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,8 +60,11 @@ nav .navbar-nav li a {
     color: black;
     font-size: 16px;
 }
+nav .navbar-nav li a:hover {
+    color: #005288 !important;
+}
 
-nav .navbar-nav li a:hover, nav .navbar-nav li a:visited {
+nav .navbar-nav li a:visited {
     color: black;
 }
 
@@ -164,7 +168,7 @@ section.decsription {
 }
 
 .descawal {
-    font-size: 28px;
+    font-size: 30px;
     text-align: center; 
     color: black;
     font-weight: 600;
@@ -173,7 +177,7 @@ section.decsription {
 }
 
 .descawal2 {
-    font-size: 23px;
+    font-size: 20px;
     text-align: center; 
     color: black;
     padding-top: 6px;
@@ -399,7 +403,7 @@ section.decsription {
 
 .hgl-judul {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 30px;
     color: #000000;
 }
@@ -440,13 +444,14 @@ span.carousel-control-next-icon {
 }
 
 .label-ds {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 30px;
     color: #000000;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 959px) {
@@ -464,6 +469,7 @@ span.carousel-control-next-icon {
   @media screen and (max-width: 534px) {
     .label-ds {
       width: auto !important;
+      text-align: center !important;
     }
   }
 
@@ -685,7 +691,7 @@ span.carousel-control-next-icon {
     font-weight: 600;
     line-height: 39px;
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .float-end{
@@ -698,7 +704,7 @@ span.carousel-control-next-icon {
 
 .filterdt .btn{
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 600;
     text-transform: capitalize;
     color: #000000;
     text-align: center;
@@ -726,7 +732,7 @@ span.carousel-control-next-icon {
 
 .float-end .btn{
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 600;
     text-transform: capitalize;
     color: #000000;
     text-align: center;
@@ -1037,7 +1043,7 @@ a.hvr:hover{
 
 .table-responsive h2 {
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 36px;
     color: #000000;
     padding-left: 22px;
@@ -1046,7 +1052,7 @@ a.hvr:hover{
 
 .table-responsive h3 {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 25px;
     color: #000000;
     padding-left: 22px;
@@ -1193,11 +1199,12 @@ ul.nav-h{
 
 .tdatainfo th{
     margin-right: 10px;
+    font-size: 18px;
 }
 .data-d {
     padding-top: 20px;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 12px;
     color: #000;
     padding-left: 20px;
@@ -1255,7 +1262,7 @@ div #dd-unduh {
 
 #unduhdropdownMenuLink{
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 600;
     text-transform: capitalize;
     color: #000000;
     background-color: #B0DEFF;
@@ -1548,13 +1555,12 @@ li.page-item {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
     width: 120px;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 14px;
   }
 
