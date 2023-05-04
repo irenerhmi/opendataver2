@@ -449,6 +449,24 @@ span.carousel-control-next-icon {
     margin-right: auto;
 }
 
+@media screen and (max-width: 959px) {
+    .label-ds {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .label-ds {
+      width: 200px !important;
+    }
+  }
+  
+  @media screen and (max-width: 534px) {
+    .label-ds {
+      width: auto !important;
+    }
+  }
+
 .img2 {
     display: none;
 }
